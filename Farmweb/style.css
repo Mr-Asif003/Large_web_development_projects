@@ -1,0 +1,450 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+.header-self{
+    background-color:white;
+    height: 10vh;
+    display: grid;
+grid-template-columns:30vw 30vw 40vw ;
+column-gap: 10px;
+box-shadow: 9px 6px 6px rgb(89, 148, 1);
+width:100vw;
+margin-top: 10px;
+margin-left: 6px;
+
+}
+.top-logo{
+    height: 100%;
+    width: 100%;
+    grid-column-start: 1;
+    grid-row-start:1 ;
+    grid-column-end: 2;
+    grid-row-end:2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-limit{
+   
+   height:10vh;
+   width: 20vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo{
+    height:8vh;
+    width:8vh;
+    background-image: url("farmapp.jpg");
+    background-size: cover;
+}
+
+
+/* Login-register */
+.LoginRegister{
+   
+    grid-column-start: 3;
+   
+    grid-column-end: 4;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2px;
+}
+#login-txt{
+    font-size: 20px;
+
+}
+.Gtarnslator{
+  grid-column-start: 3;
+   grid-column-end: 4;
+    
+}
+#google_translate_element{
+width: 10px;
+}
+#main-navbar{
+  height: auto;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.navbar-1{
+  width:30vw;
+  display: flex;
+  justify-content:space-evenly;
+  margin-left: 10px;
+
+}
+.navbar-2{
+  width:30vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* nav-1 */
+.panel a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size:21m;
+}
+a:hover{
+    text-shadow: 2px 2px 2px black;
+    transition: 0.5s;
+    color: rgb(140, 234, 0);
+    box-shadow: 4px 4px 4px goldenrod;
+}
+
+/* search-bar */
+.search-bar{
+   padding-left: 5px;
+   padding-right: 5px;
+  
+    text-align: center;
+}
+#top-search-input{
+    border-radius: 1em;
+    text-align: center;
+width:35vw;
+}
+#top-search-input:hover{
+  
+   box-shadow: 3px 3px 2px rgb(255, 187, 0);
+    transition: 0.5s;
+    color: rgb(255, 153, 0);
+}
+.top-search-icon{
+  font-size: 20px;
+}
+.top-search-icon:hover{
+    font-size: 25px;
+  }
+ .ai-mic:hover{
+    font-size: 25px;
+  }
+
+  /* main menu */
+
+  #main{
+    margin-top: 10px;
+    height:40vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 7vw 13vw 60vw 13vw 7vw;
+    grid-template-rows: 35vh ;
+    row-gap:10px;
+  }
+
+
+
+
+
+
+  #container-features{
+    margin-left:3vw;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .select-crop{
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .checktxt{
+    font-size:14px;
+  }
+  .card-title{
+    font-size:17px;
+  }
+ 
+  .another-features{
+    position: relative;
+    height:20vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .market-analysis{
+    height:100%;
+    width:35vw;
+    background-color: aqua;
+    margin-left:5px;
+   }
+   .talk-to-farmer{
+     height:100%;
+     width:35vw;
+     background-color: rgb(179, 255, 0);
+     margin-left:5vw;
+     margin-right:5px;
+    background-image: url("/images/talktofarmer.jpeg");
+    background-size:cover;
+    object-fit: cover;
+    }
+   #farmer-card{
+    height:100%;
+    border-radius:1em;
+
+   }
+   .anf{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 1em;
+    display: flex;
+    box-shadow: 2px 2px 5px;
+    flex-direction: column;
+   }
+   .anf:hover{
+   filter: drop-shadow(0 0 5px #0aaac2aa);
+   }
+   #market-card{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+   }
+   #farmers-card{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+   }
+   .market-heading h5{
+    font-size:3vh;
+   
+   }
+   .market-heading{
+    text-align: center;
+   }
+   #Analysis-img{
+    height:40px;
+    margin-top: 30px;
+    width: 40px;
+  
+  }
+  .market-details{
+    width:40%;
+    height:100%;
+  }
+  .farmer-details{
+    width:40%;
+    height:100%;
+  }
+
+
+
+
+
+
+
+
+
+
+ 
+  .container-selfme{
+    width: 90vw;
+    height: auto;
+  }
+.py-self{
+  width: 90vw;
+
+}
+.nav-self{
+  width: 90vw;
+}
+.nav-item-self:hover{
+text-shadow:4px 10px 4px rgb(215, 209, 209) ;
+box-shadow: 4px 4px 4px goldenrod;
+color: azure;
+}
+.nav-item-self{
+  color: aqua;
+}
+
+.carousel-index{
+grid-column-start: 2;
+grid-column-end:5;
+grid-row-start:1;
+grid-row-end:2;
+
+}
+.carousel-item{
+  margin-top: 2px;
+  height: 35vh;
+  
+}
+
+
+
+@media(max-width:412px){
+  .main-menu-limit{
+    height:33vh;
+    width:100vw;
+    grid-column-start: 1;
+   grid-row-start: 2;
+   grid-column-end: 6;
+   grid-row-end: 3;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+  }
+  .main-menu{
+    
+    height:33vh;
+    width:99vw;
+    background-color:transparent;
+    background-image: none;
+ display: grid;
+  grid-template-rows: 17vh 12vh 3vh;
+    box-shadow: 1px 1px 7px  rgb(10, 10, 10);
+    row-gap: 0;
+  }
+  .main-big-menu{
+    height:14vh;
+    width: auto;
+    display: flex;
+    grid-row-start:1 ;
+    grid-row-end:2 ;
+    
+    justify-content: space-around;
+    align-items: center;
+  }
+  .big-menu{
+    border: 1px solid;
+    height: 10vh;
+    width: 20vw;
+    background-color: #fafaf8;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+  .small-menu{
+    border: 1px solid;
+    height: 8vh;
+    width: 16vw;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+  .small-menu-innertxt{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  #main{
+    height: 77vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 7vw 13vw 60vw 13vw 7vw;
+    grid-template-rows: 35vh  35vh ;
+    row-gap:10px;
+  }
+  .carousel-innertxt{
+    font-size: 10px;
+    color: black;
+    font-weight: 700;
+  }
+  .carousel-innertxt h1{
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .header-self{
+
+    background-color:white;
+    height: 20vh;
+    display: grid;
+grid-template-columns:40vw 60vw ;
+grid-template-rows: 15vh 7vh;
+column-gap: 10px;
+box-shadow: 9px 6px 6px rgb(38, 40, 35);
+width:100vw;
+margin-top: 10px;
+margin-left: 6px;
+  }
+  .link{
+    display:flex;
+    justify-content: space-around;
+    /* font-size:; */
+  }
+ #login-txt{
+ 
+  font-size: 10px;
+ }
+ .search-input{
+  width: 10px;
+ }
+.nav-2{
+display: none;
+}
+
+.search-bar{
+text-align: left;
+display: inline;
+margin-left: 5px;
+}
+.ai-mic{
+  text-align: center;
+  display: inline;
+  display: none;
+}
+.navbar-1{
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+.panel a{
+  margin-top: 5px;
+  font-weight: 500;
+ display: inline;
+  margin-left:3px ;
+  font-size: 11px;
+}
+.top-logo{
+width:30vw;
+margin-left: 10px;
+  grid-column-start:1;
+  text-align: center;
+}
+.logo-limit{
+   
+  height:50px;
+  width:50px;
+}
+.logo{
+   height:50px;
+   width:50px;
+   
+   background-size: cover;
+}
+#top-search-input{
+  width: 150px;
+}
+.Kisan-Bazar-text{
+  font-size: 12px;
+  text-align: center;
+  font-weight: 700;
+  margin-left: 4px;
+  margin-top: 20px;
+}
+.LoginRegister{
+  grid-column-start: 2;
+  
+}
+body{
+  background-color:#b4f44ddd;
+}
+.footer-div{
+  background-color:white;
+}
+}

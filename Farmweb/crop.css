@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border:border-box;
+}
+.header-self{
+    background-color:white;
+    height: 10vh;
+    display: grid;
+grid-template-columns:30vw 30vw 40vw ;
+column-gap: 10px;
+box-shadow: 9px 6px 6px rgb(89, 148, 1);
+width:100vw;
+margin-top: 10px;
+margin-left: 6px;
+
+}
+.top-logo{
+    height: 100%;
+    width: 100%;
+    grid-column-start: 1;
+    grid-row-start:1 ;
+    grid-column-end: 2;
+    grid-row-end:2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-limit{
+   
+   height:10vh;
+   width: 20vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo{
+    height:8vh;
+    width:8vh;
+    background-image: url("farmapp.jpg");
+    background-size: cover;
+}
+
+
+/* Login-register */
+
+
+.card-btn{
+    font-size: small;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+.card{
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 2px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    flex-wrap: wrap;
+}
+.sell{
+    height: 50%;
+}
+.presell{
+    margin-top: 15vh;
+    height: 50%;
+}

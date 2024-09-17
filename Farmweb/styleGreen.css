@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border:border-box;
+}
+.hero-section{
+    height:50vh;
+}
+.carousel-item{
+    height: 50vh;
+}
+
+/* ..select-crop */
+.select-crop{
+    height:100%;
+    width: 100vw;
+    background-color: #63b517b6;
+    border: 2px solid;
+}
+.container-select-crop{
+    position: relative;
+display: flex;
+justify-content: space-around;
+}
+.card{
+    position: absolute;
+    position:relative;
+   
+    height: 50vh;
+    position: relative;
+    margin: 20px;
+    box-shadow: 5px 5px 6px black;
+    text-align: center;
+    
+}
+.card h1{
+    color: black;
+}
+.vegetable-img{
+    height:auto;
+}
+.carousel-innertxt{
+    color: rgb(246, 243, 240);
+    font-weight: 900;
+
+}
+.vegeBtn{
+ 
+    font-size: small;
+}
+.card-body{
+    
+}

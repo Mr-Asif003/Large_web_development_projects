@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-color: black;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(100, 241, 0, 0.993);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+  .wrapper h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  .wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+  }
+.select-container{
+  
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.select{
+  
+  background-size: cover;
+  box-shadow: 2px 2px 5px red;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+#farmerimg{
+  opacity:1;
+  background-image: url("farmer.jpg");
+}
+#consumerimg{
+  opacity: 1;
+  background-image: url("consumer.jpg");
+}
+consumer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.txt{
+  margin-top: 10px;
+  text-align: center;
+}

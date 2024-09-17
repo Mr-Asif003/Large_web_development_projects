@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product-List</title>
+  <link rel="stylesheet" href="productList.css">
+</head>
+
+<body>
+
+  <div class="list-container">
+    <div class="media" id="product-img">
+      <!-- <a href="#" class=""><button class="media-btn" id="img-btn-id">Add product-Images</button></a> -->
+      <div class="hero">
+        <div class="card">
+          <h4>Your-Crop-image</h4>
+
+          <img src="D:\Farmweb\images\default-img11.png" id="product-pic">
+          <label for="input-file">Upload-Image</label>
+          <input class="upload-media" type="file" accept="image/jpeg,image/png,image/jpg" id="input-file" />
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="media" id="product-video">
+      <div class="hero">
+        <div class="card">
+          <h4>Your-Crop-image</h4>
+
+          <img src="D:\Farmweb\images\default-img11.png" id="product-pic">
+
+          <label for="input-file">Upload-Image</label>
+          <input class="upload-media" type="file" accept="image/jpeg,image/png,image/jpg" id="input-file" />
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="product-details">
+      <h2 id="detail-id">Your Crops Details</h2>
+      <div class="details-container">
+        <div class="details">
+          <label id="detail-label" for="select-crop-type">Add Crop type</label>
+          <select name="crop-type" id="select-crop-type" aria-placeholder="sjfd">
+            <option>crop</option>
+            <option>Vegetables</option>
+            <option>Pulses</option>
+            <option>Spices</option>
+          </select>
+        </div>
+        
+        <div class="details">
+          <h3>Your-Name</h3>
+          <input type="text" id="sellername" placeholder="enter your name">
+        </div>
+        <div class="details">
+          <h3>Your-Address</h3>
+          <input type="text" id="sellerAddress" placeholder="Your Address">
+        </div>
+        <div class="details">
+          <h3>contact-No.</h3>
+          <input type="text" id="sellerconatact" placeholder="contact-No">
+        </div>
+        <div class="details">
+          <h4>What do you want?:-</h4>
+          <input type="radio" id="sell" name="seller" value="sell"><label id="sellerLabel" for="sell">SELL</label>
+          <input type="radio" id="pre-sell" name="seller" value="sell"><label id="sellerLabel" for="pre-sell">Pre-SELL</label>
+        </div>
+        <div class="details">
+         <h4>Quantity of Product:-</h4>
+         <input id="input-quantity" type="text">
+         <select>
+          <option value="1">Kg</option>
+          <option value="1">Ton</option>
+          <option value="1">Quintal</option>
+          <option value="1">Gram</option>
+         </select>
+        </div>
+        <div class="details">
+          <h4>Price of your Crop Per Kilogram:-</h4>
+          <input id="input-quantity" type="text" placeholder="In Rupees">
+        </div>
+
+        <div class="details">
+          <a href="D:\Farmweb\orderList.html">
+          <button type="submit" href="/crop.html" id="submit-product">Submit Crop</button>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="productList.js"></script>
+  </div>
+</body>
+
+</html>
